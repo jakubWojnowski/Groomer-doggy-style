@@ -10,4 +10,8 @@
     <Folder Include="Middleware\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GroomerDoggyStyle.Domain\GroomerDoggyStyle.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -11,4 +11,15 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Address\GroomerDoggyStyle.Application.Address.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Dogs\GroomerDoggyStyle.Application.Dogs.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Employee\GroomerDoggyStyle.Application.Employee.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.GroomerShops\GroomerDoggyStyle.Application.GroomerShops.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Offers\GroomerDoggyStyle.Application.Offers.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Owners\GroomerDoggyStyle.Application.Owners.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Visits\GroomerDoggyStyle.Application.Visits.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application\GroomerDoggyStyle.Application.csproj" />
+  </ItemGroup>
+
 </Project>

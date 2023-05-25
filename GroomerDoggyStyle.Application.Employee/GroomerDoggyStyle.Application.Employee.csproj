@@ -13,4 +13,8 @@
     <Folder Include="Query\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GroomerDoggyStyle.Application\GroomerDoggyStyle.Application.csproj" />
+  </ItemGroup>
+
 </Project>
