@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Address\GroomerDoggyStyle.Application.Address.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Dogs\GroomerDoggyStyle.Application.Dogs.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Employee\GroomerDoggyStyle.Application.Employee.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.GroomerShops\GroomerDoggyStyle.Application.GroomerShops.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Offers\GroomerDoggyStyle.Application.Offers.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Owners\GroomerDoggyStyle.Application.Owners.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application.Visits\GroomerDoggyStyle.Application.Visits.csproj" />
+    <ProjectReference Include="..\GroomerDoggyStyle.Application\GroomerDoggyStyle.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+  </ItemGroup>
+
+</Project>

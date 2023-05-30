@@ -1,30 +1,30 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
+EXPOSE 80
+EXPOSE 443
 
-COPY *sln .
-COPY src/Groomer-doggy-style/GroomerDoggyStyle/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.Address/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.Address/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.Dogs/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.Dogs/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.Employee/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.Employee/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.GroomerShops/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.GroomerShops/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.Offers/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.Offers/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.Owners/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.Owners/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Application.Visits/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Application.Visits/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Domain/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Domain/
-COPY src/Groomer-doggy-style/GroomerDoggyStyle.Infrastructure/*.csproj ./src/Groomer-doggy-style/GroomerDoggyStyle.Infrastructure/
-RUN dotnet restore
-
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["GroomerDoggyStyle/GroomerDoggyStyle.Api.csproj", "GroomerDoggyStyle/"]
+COPY ["GroomerDoggyStyle.Application/GroomerDoggyStyle.Application.csproj", "GroomerDoggyStyle.Application/"]
+COPY ["GroomerDoggyStyle.Domain/GroomerDoggyStyle.Domain.csproj", "GroomerDoggyStyle.Domain/"]
+COPY ["GroomerDoggyStyle.Infrastructure/GroomerDoggyStyle.Infrastructure.csproj", "GroomerDoggyStyle.Infrastructure/"]
+COPY ["GroomerDoggyStyle.Application.Address/GroomerDoggyStyle.Application.Address.csproj", "GroomerDoggyStyle.Application.Address/"]
+COPY ["GroomerDoggyStyle.Application.Dogs/GroomerDoggyStyle.Application.Dogs.csproj", "GroomerDoggyStyle.Application.Dogs/"]
+COPY ["GroomerDoggyStyle.Application.Employee/GroomerDoggyStyle.Application.Employee.csproj", "GroomerDoggyStyle.Application.Employee/"]
+COPY ["GroomerDoggyStyle.Application.GroomerShops/GroomerDoggyStyle.Application.GroomerShops.csproj", "GroomerDoggyStyle.Application.GroomerShops/"]
+COPY ["GroomerDoggyStyle.Application.Offers/GroomerDoggyStyle.Application.Offers.csproj", "GroomerDoggyStyle.Application.Offers/"]
+COPY ["GroomerDoggyStyle.Application.Owners/GroomerDoggyStyle.Application.Owners.csproj", "GroomerDoggyStyle.Application.Owners/"]
+COPY ["GroomerDoggyStyle.Application.Visits/GroomerDoggyStyle.Application.Visits.csproj", "GroomerDoggyStyle.Application.Visits/"]
+RUN dotnet restore "GroomerDoggyStyle/GroomerDoggyStyle.Api.csproj"
 COPY . .
-RUN dotnet build
+WORKDIR "/src/GroomerDoggyStyle"
+RUN dotnet build "GroomerDoggyStyle.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-WORKDIR /app/src/Groomer-doggy-style/GroomerDoggyStyle
-RUN dotnet publish -c Release -o out
+RUN dotnet publish "GroomerDoggyStyle.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
+FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/src/Groomer-doggy-style/GroomerDoggyStyle/out ./
-EXPOSE 80
-EXPOSE 433
-ENTRYPOINT [ "dotnet", "GroomerDoggyStyle.dll" ]
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "GroomerDoggyStyle.Api.dll"]
