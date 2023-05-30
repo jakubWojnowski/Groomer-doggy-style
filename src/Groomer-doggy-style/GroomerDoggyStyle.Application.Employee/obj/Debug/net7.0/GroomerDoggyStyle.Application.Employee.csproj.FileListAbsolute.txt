@@ -1,0 +1,17 @@
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Application.Employee.deps.json
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Application.Employee.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Application.Employee.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.csproj.AssemblyReference.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.AssemblyInfoInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.AssemblyInfo.cs
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.csproj.CoreCompileInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.csproj.CopyComplete
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.Employee.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\GroomerDoggyStyle.Application.Employee.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Employee\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.Employee.dll

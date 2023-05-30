@@ -1,0 +1,15 @@
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\bin\Debug\net7.0\GroomerDoggyStyle.Application.deps.json
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.csproj.AssemblyReference.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.AssemblyInfoInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.AssemblyInfo.cs
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.csproj.CoreCompileInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.csproj.CopyComplete
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.dll

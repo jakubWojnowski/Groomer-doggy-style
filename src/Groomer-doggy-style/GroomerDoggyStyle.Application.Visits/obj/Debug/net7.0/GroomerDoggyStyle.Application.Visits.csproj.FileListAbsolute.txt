@@ -1,0 +1,17 @@
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Application.Visits.deps.json
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Application.Visits.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Application.Visits.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.csproj.AssemblyReference.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.AssemblyInfoInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.AssemblyInfo.cs
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.csproj.CoreCompileInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.csproj.CopyComplete
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.Visits.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\GroomerDoggyStyle.Application.Visits.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Visits\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.Visits.dll
