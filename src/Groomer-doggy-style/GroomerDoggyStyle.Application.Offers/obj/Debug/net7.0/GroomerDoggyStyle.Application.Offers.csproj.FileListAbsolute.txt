@@ -1,0 +1,17 @@
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Application.Offers.deps.json
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Application.Offers.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Application.Offers.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.csproj.AssemblyReference.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.AssemblyInfoInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.AssemblyInfo.cs
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.csproj.CoreCompileInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.csproj.CopyComplete
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.Offers.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\GroomerDoggyStyle.Application.Offers.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Offers\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.Offers.dll

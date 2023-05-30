@@ -1,0 +1,17 @@
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Application.Address.deps.json
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Application.Address.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Application.Address.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.csproj.AssemblyReference.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.AssemblyInfoInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.AssemblyInfo.cs
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.csproj.CoreCompileInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.csproj.CopyComplete
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.Address.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\GroomerDoggyStyle.Application.Address.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Address\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.Address.dll

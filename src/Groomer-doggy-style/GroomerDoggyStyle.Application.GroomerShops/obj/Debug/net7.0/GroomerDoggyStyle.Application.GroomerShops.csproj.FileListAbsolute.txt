@@ -1,0 +1,17 @@
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.deps.json
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.csproj.AssemblyReference.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.AssemblyInfoInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.AssemblyInfo.cs
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.csproj.CoreCompileInputs.cache
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.csproj.CopyComplete
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.GroomerShops.dll
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\GroomerDoggyStyle.Application.GroomerShops.pdb
+C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.GroomerShops\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.GroomerShops.dll
