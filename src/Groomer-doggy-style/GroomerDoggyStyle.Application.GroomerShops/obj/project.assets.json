@@ -557,11 +557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.GroomerShops\\GroomerDoggyStyle.Application.GroomerShops.csproj",
+      "projectUniqueName": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.GroomerShops\\GroomerDoggyStyle.Application.GroomerShops.csproj",
       "projectName": "GroomerDoggyStyle.Application.GroomerShops",
-      "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.GroomerShops\\GroomerDoggyStyle.Application.GroomerShops.csproj",
+      "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.GroomerShops\\GroomerDoggyStyle.Application.GroomerShops.csproj",
       "packagesPath": "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.GroomerShops\\obj\\",
+      "outputPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.GroomerShops\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LGXIZ5Tr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -578,8 +578,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj": {
-              "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj"
+            "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj": {
+              "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj"
             }
           }
         }

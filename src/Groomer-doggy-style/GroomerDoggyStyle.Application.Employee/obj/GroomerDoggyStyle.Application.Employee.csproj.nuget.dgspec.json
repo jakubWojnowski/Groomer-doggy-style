@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj": {}
+    "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj": {
+    "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj",
+        "projectUniqueName": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj",
         "projectName": "GroomerDoggyStyle.Application.Employee",
-        "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj",
+        "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\GroomerDoggyStyle.Application.Employee.csproj",
         "packagesPath": "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\obj\\",
+        "outputPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Employee\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LGXIZ5Tr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj": {
-                "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj"
+              "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj": {
+                "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj": {
+    "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj",
+        "projectUniqueName": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj",
         "projectName": "GroomerDoggyStyle.Application",
-        "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj",
+        "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj",
         "packagesPath": "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\obj\\",
+        "outputPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LGXIZ5Tr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj": {
-                "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj"
+              "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj": {
+                "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj": {
+    "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj",
+        "projectUniqueName": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj",
         "projectName": "GroomerDoggyStyle.Domain",
-        "projectPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj",
+        "projectPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj",
         "packagesPath": "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\obj\\",
+        "outputPath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LGXIZ5Tr\\AppData\\Roaming\\NuGet\\NuGet.Config",

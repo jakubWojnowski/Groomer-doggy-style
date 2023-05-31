@@ -15,3 +15,20 @@ C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggySty
 C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.Owners.dll
 C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.pdb
 C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.Owners.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Application.Owners.deps.json
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Application.Owners.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Application.Owners.pdb
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Application.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Application.pdb
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.csproj.AssemblyReference.cache
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.GeneratedMSBuildEditorConfig.editorconfig
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.AssemblyInfoInputs.cache
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.AssemblyInfo.cs
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.csproj.CoreCompileInputs.cache
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.csproj.CopyComplete
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\refint\GroomerDoggyStyle.Application.Owners.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\GroomerDoggyStyle.Application.Owners.pdb
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Application.Owners\obj\Debug\net7.0\ref\GroomerDoggyStyle.Application.Owners.dll
