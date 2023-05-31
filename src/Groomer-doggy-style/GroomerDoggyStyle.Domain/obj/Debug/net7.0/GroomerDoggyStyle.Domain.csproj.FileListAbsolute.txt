@@ -10,3 +10,15 @@ C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggySty
 C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\refint\GroomerDoggyStyle.Domain.dll
 C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
 C:\Users\LGXIZ5Tr\Desktop\Copy — kopia\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\ref\GroomerDoggyStyle.Domain.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\bin\Debug\net7.0\GroomerDoggyStyle.Domain.deps.json
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\bin\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\bin\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.csproj.AssemblyReference.cache
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.AssemblyInfoInputs.cache
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.AssemblyInfo.cs
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.csproj.CoreCompileInputs.cache
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\refint\GroomerDoggyStyle.Domain.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\GroomerDoggyStyle.Domain.pdb
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle.Domain\obj\Debug\net7.0\ref\GroomerDoggyStyle.Domain.dll

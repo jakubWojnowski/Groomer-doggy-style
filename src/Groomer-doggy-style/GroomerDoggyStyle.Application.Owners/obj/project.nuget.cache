@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y2i/6bzBNqBS+7e4yyABc+PlGGg5Mwh83ijKi/dY4yA+swJl2ea5xPVd09jIEnQe08y29XwBv4Ytwv7Ab/JiIQ==",
+  "dgSpecHash": "fSYNho8mP4laDPU56IrxRrJwqx1DSWeUkm9HJJ1194paBJyw49p7ojVbkl2WdzPXIZODnF6sRdF9AZGucH7rCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Owners\\GroomerDoggyStyle.Application.Owners.csproj",
+  "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Owners\\GroomerDoggyStyle.Application.Owners.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

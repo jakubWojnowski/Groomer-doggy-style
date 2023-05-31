@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KdYRexoewui8YKaHXwxFgdKPOC8kob30eZVXyWyvze6qzR5h3a3cyxoOvd1y5Q9PZQiX6kB8dzdohuqmzyhxrg==",
+  "dgSpecHash": "BsKE7uHOQ+M1wqWFA2q+EeQ8JePeK1ASGeybWpSKmLBk9e8sssy2DYd3w4jiUJ7ACOePZjP7T5zIDVUCth59Mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LGXIZ5Tr\\Desktop\\Copy — kopia\\src\\Groomer-doggy-style\\GroomerDoggyStyle\\GroomerDoggyStyle.Api.csproj",
+  "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle\\GroomerDoggyStyle.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
