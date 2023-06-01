@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WP07Buo6hiv8rRqweM3HxcVJcBkahydddPeTRcDeEAhTKm54Fjez6uPsnXIsp3jVSI4QC1poex9k1akhlYM8wQ==",
+  "dgSpecHash": "jsWosRhRsk5iEHfZXeFPbFBQsqNjii8pj3gKP557Xm5I6mnsUwHK45mukdWimsGkssk0yjx56AZkG5yDFpaVHg==",
   "success": true,
   "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Domain\\GroomerDoggyStyle.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

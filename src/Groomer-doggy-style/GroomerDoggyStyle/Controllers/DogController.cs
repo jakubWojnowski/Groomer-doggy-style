@@ -6,7 +6,7 @@ namespace GroomerDoggyStyle.Api.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class DogsController : ControllerBase
+    public class DogController : ControllerBase
     {
         public ActionResult<Dog> GetAllDogs()
         {
