@@ -1,5 +1,5 @@
-﻿using GroomerDoggyStyle.Application.Service;
-using GroomerDoggyStyle.Domain.Entities;
+﻿using GroomerDoggyStyle.Application.DTO;
+using GroomerDoggyStyle.Application.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GroomerDoggyStyle.Api.Controllers
@@ -14,14 +14,11 @@ namespace GroomerDoggyStyle.Api.Controllers
         {
             _ownerService = ownerService;
         }
-        public async Task<ActionResult> Create(Owner owner)
+        public async Task<ActionResult> Create([FromBody] OwnerDto ownerDto)
         {           
-            await _ownerService.CreateOwnerAsync(owner);
+            var id = await _ownerService.CreateOwnerAsync(ownerDto);
 
-            return Ok();
+            return Created($"api/owners/{id}", null);
         }
-
-
-
     }
 }

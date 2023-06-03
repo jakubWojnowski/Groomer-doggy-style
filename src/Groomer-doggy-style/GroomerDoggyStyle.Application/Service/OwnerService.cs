@@ -1,10 +1,7 @@
-﻿using GroomerDoggyStyle.Domain.Entities;
+﻿using GroomerDoggyStyle.Application.DTO;
+using GroomerDoggyStyle.Application.Mappings;
 using GroomerDoggyStyle.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace GroomerDoggyStyle.Application.Service
 {
@@ -16,9 +13,14 @@ namespace GroomerDoggyStyle.Application.Service
         {
             _ownerRepository = ownerRepository;
         }
-        public async Task CreateOwnerAsync(Owner owner)
+        public async Task<int> CreateOwnerAsync(OwnerDto ownerDto)
         {
-            await _ownerRepository.CreateOwnerAsync(owner);
+            var mapper = new OwnerMapper();
+            var owner = mapper.MapOwnerDtoToOwner(ownerDto);
+
+            var id = await _ownerRepository.CreateOwnerAsync(owner);
+
+            return id;
         }
     }
 }

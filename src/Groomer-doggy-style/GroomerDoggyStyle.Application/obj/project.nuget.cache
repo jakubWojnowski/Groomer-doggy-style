@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kBygyBs7Q9rFqW7B8OZ6qAWP4pRQksW8prWN5Eb7Yp21UZrxwN3LXb8aUDdO7C20PB1D+OtStrSNk7pPDOefVg==",
+  "dgSpecHash": "Brkc1RunkK4ktVEaon9UeZ4ZISyJcpfw5yNY052JvyQUb0tZ/m0az9goh/OABhPiEirNjZ7YKXZSrJZ5qGaPhw==",
   "success": true,
   "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\riok.mapperly\\2.8.0\\riok.mapperly.2.8.0.nupkg.sha512"
   ],
   "logs": []
 }

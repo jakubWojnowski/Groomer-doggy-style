@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GroomerDoggyStyle.Infrastructure.Persistence;
 
-public class GroomerDoggyStyleDbContext : DbContext
+internal sealed class GroomerDoggyStyleDbContext : DbContext
 {
     public GroomerDoggyStyleDbContext(DbContextOptions options) : base(options)
     {

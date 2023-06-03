@@ -198,11 +198,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Riok.Mapperly/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GroomerDoggyStyle.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "GroomerDoggyStyle.Domain": "1.0.0"
+          "GroomerDoggyStyle.Domain": "1.0.0",
+          "Riok.Mapperly": "2.8.0"
         },
         "compile": {
           "bin/placeholder/GroomerDoggyStyle.Application.dll": {}
@@ -535,6 +549,27 @@
         "microsoft.extensions.primitives.7.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Riok.Mapperly/2.8.0": {
+      "sha512": "tBnpMLnbyUSvlEG48nOarppqwkrcuZR7P6htrgdsN6Q0DMgHSh4/pXuqFg5HvdyN6BgMPWieXJEDKOK05FBPHA==",
+      "type": "package",
+      "path": "riok.mapperly/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "analyzers/roslyn4.0/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn4.0/dotnet/cs/Riok.Mapperly.dll",
+        "analyzers/roslyn4.4/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn4.4/dotnet/cs/Riok.Mapperly.dll",
+        "analyzers/roslyn4.5/dotnet/cs/Riok.Mapperly.Abstractions.dll",
+        "analyzers/roslyn4.5/dotnet/cs/Riok.Mapperly.dll",
+        "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll",
+        "lib/netstandard2.0/Riok.Mapperly.Abstractions.xml",
+        "logo.png",
+        "riok.mapperly.2.8.0.nupkg.sha512",
+        "riok.mapperly.nuspec"
       ]
     },
     "GroomerDoggyStyle.Application/1.0.0": {

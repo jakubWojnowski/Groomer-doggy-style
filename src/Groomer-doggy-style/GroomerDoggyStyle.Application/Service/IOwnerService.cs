@@ -1,9 +1,9 @@
-﻿using GroomerDoggyStyle.Domain.Entities;
+﻿using GroomerDoggyStyle.Application.DTO;
 
 namespace GroomerDoggyStyle.Application.Service
 {
     public interface IOwnerService
     {
-        Task CreateOwnerAsync(Owner owner);
+        Task<int> CreateOwnerAsync(OwnerDto ownerDto);
     }
 }

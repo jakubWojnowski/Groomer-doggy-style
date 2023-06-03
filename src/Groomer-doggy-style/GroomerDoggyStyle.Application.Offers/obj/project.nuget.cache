@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "u8q6a12ojrUbZPXCpFDI0NFBdUKDATUvrRjGU9jmmyGXzC1tZUazoFKHLLZZSiv1K9tar3joQNwq1HDrxDDDvQ==",
+  "dgSpecHash": "w9pOA1o3lCajMhs57nyIHRDClCeAq/OFid+7qxBgYwM0vuOoG7SxSYqNgelUbKY9ubqX2jsyrhKw+6Jxmtt2RA==",
   "success": true,
   "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Offers\\GroomerDoggyStyle.Application.Offers.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,8 @@
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\riok.mapperly\\2.8.0\\riok.mapperly.2.8.0.nupkg.sha512"
   ],
   "logs": []
 }

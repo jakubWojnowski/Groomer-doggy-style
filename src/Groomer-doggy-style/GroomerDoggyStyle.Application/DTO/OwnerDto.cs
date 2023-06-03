@@ -1,6 +1,6 @@
-﻿using GroomerDoggyStyle.Domain.Entities;
+﻿
 
-namespace GroomerDoggyStyle.Api.DTO
+namespace GroomerDoggyStyle.Application.DTO
 {
     public class OwnerDto
     {
@@ -8,6 +8,5 @@ namespace GroomerDoggyStyle.Api.DTO
         public string? LastName { get; set; }
         public string? Mail { get; set; }
         public string? PhoneNumber { get; set; }
-
     }
 }

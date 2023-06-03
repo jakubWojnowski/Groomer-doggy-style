@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroomerDoggyStyle.Infrastructure.EntitiesConfigurations;
 
-public class OwnerConfiguration : IEntityTypeConfiguration<Owner>
+internal sealed class OwnerConfiguration : IEntityTypeConfiguration<Owner>
 {
     public void Configure(EntityTypeBuilder<Owner> builder)
     {

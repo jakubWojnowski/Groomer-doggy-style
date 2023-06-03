@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroomerDoggyStyle.Infrastructure.EntitiesConfigurations;
 
-public class AddressConfiguration : IEntityTypeConfiguration<Domain.Entities.Address>
+internal sealed class AddressConfiguration : IEntityTypeConfiguration<Domain.Entities.Address>
 {
     public void Configure(EntityTypeBuilder<Domain.Entities.Address> builder)
     {

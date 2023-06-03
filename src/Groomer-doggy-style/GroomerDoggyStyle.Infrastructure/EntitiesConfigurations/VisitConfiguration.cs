@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroomerDoggyStyle.Infrastructure.EntitiesConfigurations;
 
-public class VisitConfiguration : IEntityTypeConfiguration<Visit>
+internal sealed class VisitConfiguration : IEntityTypeConfiguration<Visit>
 {
     public void Configure(EntityTypeBuilder<Visit> builder)
     {

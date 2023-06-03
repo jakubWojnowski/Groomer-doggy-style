@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroomerDoggyStyle.Infrastructure.EntitiesConfigurations;
 
-public class EmployeeConfiguration : IEntityTypeConfiguration<Domain.Entities.Employee>
+internal sealed class EmployeeConfiguration : IEntityTypeConfiguration<Domain.Entities.Employee>
 {
     public void Configure(EntityTypeBuilder<Domain.Entities.Employee> builder)
     {
