@@ -7,6 +7,8 @@ namespace GroomerDoggyStyle.Application.Mappings
     [Mapper]
     public partial class OwnerMapper
     {
-        public partial Owner MapOwnerDtoToOwner(OwnerDto owner);
+        public partial Owner MapOwnerDtoToOwner(OwnerDto ownerDto);
+        public partial OwnerDto MapOwnerToOwnerDto(Owner owner);
+        public partial IEnumerable<OwnerDto> MapOwnersToOwnersDto(IEnumerable<Owner> owners);
     }
 }

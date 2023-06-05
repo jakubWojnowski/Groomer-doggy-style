@@ -31,6 +31,9 @@ services:
     ports:
         - "5433:5432"
     restart: always
+    networks:
+      - dev
 
 volumes:
   app-data:
+

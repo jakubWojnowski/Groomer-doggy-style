@@ -6,7 +6,7 @@ using System.Text.Json;
 
 namespace GroomerDoggyStyle.Infrastructure.Middleware
 {
-    internal sealed class ExceptionMiddleware : IMiddleware
+    public sealed class ExceptionMiddleware : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {

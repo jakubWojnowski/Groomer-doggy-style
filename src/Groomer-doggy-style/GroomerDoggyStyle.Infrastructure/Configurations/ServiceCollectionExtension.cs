@@ -1,6 +1,8 @@
 ﻿using GroomerDoggyStyle.Domain.Interfaces;
+using GroomerDoggyStyle.Infrastructure.Middleware;
 using GroomerDoggyStyle.Infrastructure.Persistence;
 using GroomerDoggyStyle.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +18,8 @@ namespace GroomerDoggyStyle.Infrastructure.Configurations
                 options.UseNpgsql(configuration.GetConnectionString("GroomerDoggyStyle")));
 
             services.AddScoped<IOwnerRepository, OwnerRepository>();
+
+            services.AddScoped<ExceptionMiddleware>();
 
             return services;
         }

@@ -126,15 +126,27 @@
           }
         }
       },
+      "Riok.Mapperly/2.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Riok.Mapperly.Abstractions.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
       "GroomerDoggyStyle.Application/1.0.0": {
         "dependencies": {
-          "GroomerDoggyStyle.Domain": "1.0.0"
+          "GroomerDoggyStyle.Domain": "1.0.0",
+          "Riok.Mapperly": "2.8.0"
         },
         "runtime": {
           "GroomerDoggyStyle.Application.dll": {}
         }
       },
       "GroomerDoggyStyle.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
         "runtime": {
           "GroomerDoggyStyle.Domain.dll": {}
         }
@@ -223,6 +235,13 @@
       "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Riok.Mapperly/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBnpMLnbyUSvlEG48nOarppqwkrcuZR7P6htrgdsN6Q0DMgHSh4/pXuqFg5HvdyN6BgMPWieXJEDKOK05FBPHA==",
+      "path": "riok.mapperly/2.8.0",
+      "hashPath": "riok.mapperly.2.8.0.nupkg.sha512"
     },
     "GroomerDoggyStyle.Application/1.0.0": {
       "type": "project",
