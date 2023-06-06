@@ -2,7 +2,7 @@
 using GroomerDoggyStyle.Application.Mappings;
 using GroomerDoggyStyle.Domain.Exceptions;
 using GroomerDoggyStyle.Domain.Interfaces;
-
+using System.ComponentModel.DataAnnotations;
 
 namespace GroomerDoggyStyle.Application.Service
 {
@@ -47,5 +47,26 @@ namespace GroomerDoggyStyle.Application.Service
             return id;
         }
 
+        public async Task UpdateOwnerAsync(int id, OwnerDto ownerDto)
+        {
+            var owner = await _ownerRepository.GetOwnerByIdAsync(id);
+
+            if (owner == null)
+                throw new NotFoundException("Owner not found");
+
+            var ownerUpdate = _mapper.MapOwnerDtoToOwner(ownerDto);
+
+            await _ownerRepository.UpdateOwnerAsync(owner, ownerUpdate);
+        }
+
+        public async Task DeleteOwnerAsync(int id)
+        {
+            var owner = await _ownerRepository.GetOwnerByIdAsync(id);
+
+            if (owner == null)
+                throw new NotFoundException("Owner not found");
+
+            await _ownerRepository.DeleteOwnerAsync(owner);
+        }
     }
 }

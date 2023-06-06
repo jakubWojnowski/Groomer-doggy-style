@@ -8,5 +8,7 @@ namespace GroomerDoggyStyle.Domain.Interfaces
         Task<IEnumerable<Owner>> GetAllOwnersAsync();
         Task<Owner> GetOwnerByIdAsync(int id);
         Task<int> CreateOwnerAsync(Owner owner);
+        Task UpdateOwnerAsync(Owner owner, Owner ownerUpdate);
+        Task DeleteOwnerAsync(Owner owner);
     }
 }

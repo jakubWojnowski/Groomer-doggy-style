@@ -39,6 +39,22 @@ namespace GroomerDoggyStyle.Api.Controllers
             return Created($"api/owners/{id}", null);
         }
 
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update([FromRoute] int id, [FromBody] OwnerDto ownerDto)
+        {
+            await _ownerService.UpdateOwnerAsync(id, ownerDto);
+
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete([FromRoute] int id)
+        {
+            await _ownerService.DeleteOwnerAsync(id);
+
+            return NoContent();
+        }
+
 
     }
 }

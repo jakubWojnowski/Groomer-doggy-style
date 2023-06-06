@@ -21,5 +21,21 @@ namespace GroomerDoggyStyle.Infrastructure.Repositories
 
             return owner.Id;
         }
+
+        public async Task UpdateOwnerAsync(Owner owner, Owner ownerUpdate)
+        {
+            owner.Name = ownerUpdate.Name;
+            owner.LastName = ownerUpdate.LastName;
+            owner.Mail = ownerUpdate.Mail;
+            owner.PhoneNumber = ownerUpdate.PhoneNumber;
+
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task DeleteOwnerAsync(Owner owner)
+        {
+            _dbContext.Remove(owner);
+            await _dbContext.SaveChangesAsync();
+        }
     }
 }
