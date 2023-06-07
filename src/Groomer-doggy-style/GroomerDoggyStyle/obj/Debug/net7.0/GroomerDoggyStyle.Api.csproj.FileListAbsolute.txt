@@ -112,6 +112,7 @@ D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\obj\Debug\net7.
 D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\obj\Debug\net7.0\GroomerDoggyStyle.Api.pdb
 D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\obj\Debug\net7.0\GroomerDoggyStyle.Api.genruntimeconfig.cache
 D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\obj\Debug\net7.0\ref\GroomerDoggyStyle.Api.dll
-D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\bin\Debug\net7.0\libman.json
 D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\bin\Debug\net7.0\Riok.Mapperly.Abstractions.dll
 D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\obj\Debug\net7.0\GroomerDoggyStyle.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\bin\Debug\net7.0\MediatR.dll
+D:\Groomer-doggy-style\src\Groomer-doggy-style\GroomerDoggyStyle\bin\Debug\net7.0\MediatR.Contracts.dll

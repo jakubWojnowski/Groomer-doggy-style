@@ -109,6 +109,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Riok.Mapperly": {
               "target": "Package",
               "version": "[2.8.0, )"

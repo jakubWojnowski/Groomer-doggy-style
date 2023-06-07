@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rETcxkwSlGq5/9/7z3vM5PXqEbUpaPhf3zOEPqeHwgXSZ39Li2npwMVZTT/pXpW9R6FQ351s2ZYdzBOkIavZxA==",
+  "dgSpecHash": "3moqFT167oOko6yvwKbfHWqBCDbl+WZVmBiqdPrUralL4+42Vfz8Dk21Dpnzik2j2al3GPD2pzmj86Jz/+ofnQ==",
   "success": true,
   "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application.Visits\\GroomerDoggyStyle.Application.Visits.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",

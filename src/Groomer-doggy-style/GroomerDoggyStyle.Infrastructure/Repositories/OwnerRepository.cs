@@ -12,7 +12,7 @@ namespace GroomerDoggyStyle.Infrastructure.Repositories
         {
             _dbContext = dbContext;
         }
-        public async Task<IEnumerable<Owner>> GetAllOwnersAsync() => await _dbContext.Owners.AsNoTracking().ToListAsync();
+        public async Task<IEnumerable<Owner>> GetAllOwnersAsync() => await _dbContext.Owners.ToListAsync();
         public async Task<Owner> GetOwnerByIdAsync(int id) => await _dbContext.Owners.FirstOrDefaultAsync(o => o.Id == id);
         public async Task<int> CreateOwnerAsync(Owner owner)
         {

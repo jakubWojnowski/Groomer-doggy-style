@@ -1,5 +1,4 @@
 ﻿
-
 namespace GroomerDoggyStyle.Application.DTO
 {
     public class OwnerDto

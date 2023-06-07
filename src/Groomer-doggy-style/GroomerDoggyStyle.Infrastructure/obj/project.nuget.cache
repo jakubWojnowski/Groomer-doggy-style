@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ymS4Zhrk3MEIjtyK28tVInWZ+hJEKXd0r/Kx7vYmInldxuD81S5XTOg1nnpM4fepPaKRa96OYu2huVEbZq1bQg==",
+  "dgSpecHash": "Ug+LoOHl3L/UflPigMopl9q+IYu9WT6Jzc7XRydxeyxAoh/TgzSyjQqd/ZjoTUA+Kywx10ZXFbgZ4WR7Ynv65A==",
   "success": true,
   "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Infrastructure\\GroomerDoggyStyle.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

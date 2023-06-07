@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Brkc1RunkK4ktVEaon9UeZ4ZISyJcpfw5yNY052JvyQUb0tZ/m0az9goh/OABhPiEirNjZ7YKXZSrJZ5qGaPhw==",
+  "dgSpecHash": "XzfTtnOARDSlTCoKRKAQ6qPMLJVaoQDAbL+RheTkGP1ezwHIptp7f17n3MtbjjYg2DvvtyFb+aRu7g0Im6QYOg==",
   "success": true,
   "projectFilePath": "D:\\Groomer-doggy-style\\src\\Groomer-doggy-style\\GroomerDoggyStyle.Application\\GroomerDoggyStyle.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\LGXIZ5Tr\\.nuget\\packages\\riok.mapperly\\2.8.0\\riok.mapperly.2.8.0.nupkg.sha512"
   ],
