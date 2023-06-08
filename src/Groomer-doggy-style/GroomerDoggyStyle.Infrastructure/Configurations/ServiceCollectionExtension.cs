@@ -2,7 +2,6 @@
 using GroomerDoggyStyle.Infrastructure.Middleware;
 using GroomerDoggyStyle.Infrastructure.Persistence;
 using GroomerDoggyStyle.Infrastructure.Repositories;
-using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

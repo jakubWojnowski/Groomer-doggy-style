@@ -1,5 +1,4 @@
-﻿using GroomerDoggyStyle.Application.DTO;
-using GroomerDoggyStyle.Application.Mappings;
+﻿using GroomerDoggyStyle.Application.Mappings;
 using GroomerDoggyStyle.Domain.Exceptions;
 using GroomerDoggyStyle.Domain.Interfaces;
 using MediatR;

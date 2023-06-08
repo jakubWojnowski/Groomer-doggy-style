@@ -1,6 +1,4 @@
-﻿using GroomerDoggyStyle.Application.Service;
-using Microsoft.Extensions.DependencyInjection;
-using System.Net.NetworkInformation;
+﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 namespace GroomerDoggyStyle.Application.Configurations
@@ -11,8 +9,6 @@ namespace GroomerDoggyStyle.Application.Configurations
         {
             services.AddMediatR(cfg =>
                 cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-
-            services.AddScoped<IOwnerService, OwnerService>();
 
             return services;
         }

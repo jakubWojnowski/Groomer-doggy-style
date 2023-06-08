@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GroomerDoggyStyle.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroomerDoggyStyle.Infrastructure.EntitiesConfigurations;
 
-internal sealed class EmployeeConfiguration : IEntityTypeConfiguration<Domain.Entities.Employee>
+internal sealed class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
 {
-    public void Configure(EntityTypeBuilder<Domain.Entities.Employee> builder)
+    public void Configure(EntityTypeBuilder<Employee> builder)
     {
         builder.Property(n => n.Name).IsRequired();
         builder.Property(l => l.LastName).IsRequired();

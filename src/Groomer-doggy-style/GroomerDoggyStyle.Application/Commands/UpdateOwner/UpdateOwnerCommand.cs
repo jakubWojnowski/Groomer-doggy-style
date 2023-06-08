@@ -1,6 +1,5 @@
 ﻿using GroomerDoggyStyle.Application.DTO;
 using MediatR;
-using System.ComponentModel;
 
 namespace GroomerDoggyStyle.Application.Commands.UpdateOwner
 {

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GroomerDoggyStyle.Infrastructure.EntitiesConfigurations;
 
-internal sealed class AddressConfiguration : IEntityTypeConfiguration<Domain.Entities.Address>
+internal sealed class AddressConfiguration : IEntityTypeConfiguration<Address>
 {
-    public void Configure(EntityTypeBuilder<Domain.Entities.Address> builder)
+    public void Configure(EntityTypeBuilder<Address> builder)
     {
         builder.Property(c => c.Country).IsRequired();
         builder.Property(ci => ci.City).IsRequired();
