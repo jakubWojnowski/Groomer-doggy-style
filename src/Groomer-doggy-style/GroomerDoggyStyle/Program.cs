@@ -1,6 +1,6 @@
 using GroomerDoggyStyle.Infrastructure.Configurations;
 using GroomerDoggyStyle.Application.Configurations;
-using GroomerDoggyStyle.Infrastructure.Middleware;
+using GroomerDoggyStyle.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 

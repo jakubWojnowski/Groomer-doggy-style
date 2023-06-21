@@ -3,24 +3,20 @@ using GroomerDoggyStyle.Application.Mappings;
 using GroomerDoggyStyle.Domain.Interfaces;
 using MediatR;
 
-namespace GroomerDoggyStyle.Application.Queries.GetAllOwners
+namespace GroomerDoggyStyle.Application.Queries.GetAllOwners;
+
+public class GetAllOwnersQueryHandler : IRequestHandler<GetAllOwnersQuery, IEnumerable<OwnerDto>>
 {
-    public class GetAllOwnersQueryHandler : IRequestHandler<GetAllOwnersQuery, IEnumerable<OwnerDto>>
+    private readonly IOwnerRepository _ownerRepository;
+    private readonly static OwnerMapper _mapper = new();
+    public GetAllOwnersQueryHandler(IOwnerRepository ownerRepository)
     {
-        private readonly IOwnerRepository _ownerRepository;
-        private readonly OwnerMapper _mapper;
-        public GetAllOwnersQueryHandler(IOwnerRepository ownerRepository)
-        {
-            _ownerRepository = ownerRepository;
-            _mapper = new();
-        }
-        public async Task<IEnumerable<OwnerDto>> Handle(GetAllOwnersQuery request, CancellationToken cancellationToken)
-        {
-            var owners = await _ownerRepository.GetAllOwnersAsync();
+        _ownerRepository = ownerRepository;
+    }
+    public async Task<IEnumerable<OwnerDto>> Handle(GetAllOwnersQuery request, CancellationToken cancellationToken)
+    {
+        var owners = await _ownerRepository.GetAllOwnersAsync();
 
-            var ownersDto = _mapper.MapOwnersToOwnersDto(owners);
-
-            return ownersDto;
-        }
+        return _mapper.MapOwnersToOwnersDto(owners); ;
     }
 }

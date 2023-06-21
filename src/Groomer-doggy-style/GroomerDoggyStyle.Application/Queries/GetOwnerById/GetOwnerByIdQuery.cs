@@ -2,15 +2,6 @@
 using MediatR;
 
 
-namespace GroomerDoggyStyle.Application.Queries.GetOwnerById
-{
-    public class GetOwnerByIdQuery : IRequest<OwnerDto>
-    {
-        public int Id { get; set; }
+namespace GroomerDoggyStyle.Application.Queries.GetOwnerById;
 
-        public GetOwnerByIdQuery(int id)
-        {
-            Id = id;
-        }
-    }
-}
+public record GetOwnerByIdQuery(int Id) : IRequest<OwnerDto>;

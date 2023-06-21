@@ -1,14 +1,5 @@
 ﻿using MediatR;
 
-namespace GroomerDoggyStyle.Application.Commands.DeleteOwner
-{
-    public class DeleteOwnerCommand : IRequest
-    {
-        public int Id { get; set; }
+namespace GroomerDoggyStyle.Application.Commands.DeleteOwner;
 
-        public DeleteOwnerCommand(int id)
-        {
-            Id = id;
-        }
-    }
-}
+public record DeleteOwnerCommand(int Id) : IRequest;

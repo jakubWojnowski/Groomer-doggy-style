@@ -2,26 +2,23 @@
 using GroomerDoggyStyle.Domain.Interfaces;
 using MediatR;
 
+namespace GroomerDoggyStyle.Application.Commands.CreateOwner;
 
-namespace GroomerDoggyStyle.Application.Commands.CreateOwner
+public class CreateOwnerCommandHandler : IRequestHandler<CreateOwnerCommand, int>
 {
-    public class CreateOwnerCommandHandler : IRequestHandler<CreateOwnerCommand, int>
+    private readonly IOwnerRepository _ownerRepository;
+    private readonly static OwnerMapper _mapper = new();
+
+    public CreateOwnerCommandHandler(IOwnerRepository ownerRepository)
     {
-        private readonly IOwnerRepository _ownerRepository;
-        private readonly OwnerMapper _mapper;
+        _ownerRepository = ownerRepository;
+    }
+    public async Task<int> Handle(CreateOwnerCommand request, CancellationToken cancellationToken)
+    {
+        var owner = _mapper.MapOwnerDtoToOwner(request.OwnerDto);
 
-        public CreateOwnerCommandHandler(IOwnerRepository ownerRepository)
-        {
-            _ownerRepository = ownerRepository;
-            _mapper = new();
-        }
-        public async Task<int> Handle(CreateOwnerCommand request, CancellationToken cancellationToken)
-        {
-            var owner = _mapper.MapOwnerDtoToOwner(request);
+        var id = await _ownerRepository.CreateOwnerAsync(owner);
 
-            var id = await _ownerRepository.CreateOwnerAsync(owner);
-
-            return id;
-        }
+        return id;
     }
 }
