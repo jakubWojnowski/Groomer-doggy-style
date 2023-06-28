@@ -1,12 +1,14 @@
 using GroomerDoggyStyle.Infrastructure.Configurations;
 using GroomerDoggyStyle.Application.Configurations;
 using GroomerDoggyStyle.Api.Middleware;
+using GroomerDoggyStyle.Api.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
     .AddApplication()
-    .AddInfrastructure(builder.Configuration);
+    .AddInfrastructure(builder.Configuration)
+    .AddPresentation();
 
 builder.Services.AddControllers();
 

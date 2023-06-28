@@ -37,18 +37,18 @@ public class OwnerController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult> Create([FromBody] CreateOwnerCommand command)
+    public async Task<ActionResult> Create([FromBody] OwnerDto ownerDto)
     {
-        var id = await _mediator.Send(command);
+        var id = await _mediator.Send(new CreateOwnerCommand(ownerDto));
 
         return Created($"api/owners/{id}", null);
     }
 
     [HttpPut("{id}")]
-    public async Task<ActionResult> Update([FromRoute] int id, [FromBody] UpdateOwnerCommand command)
+    public async Task<ActionResult> Update([FromRoute] int id, [FromBody] OwnerDto ownerDto)
     {
         //command.Id = id;
-        await _mediator.Send(command with { Id = id});
+        await _mediator.Send(new UpdateOwnerCommand(id, ownerDto));
 
         return Ok();
     }
