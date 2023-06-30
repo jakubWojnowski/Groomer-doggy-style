@@ -1,6 +1,8 @@
 ﻿using GroomerDoggyStyle.Application.Dogs.Commands.CreateDog;
 using GroomerDoggyStyle.Application.Dogs.Commands.UpdateDog;
 using GroomerDoggyStyle.Application.Dogs.DTO;
+using GroomerDoggyStyle.Application.Dogs.Query.GetAllDogs;
+using GroomerDoggyStyle.Application.Dogs.Query.GetDogById;
 using GroomerDoggyStyle.Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
@@ -32,4 +34,21 @@ public class DogController : ControllerBase
         await _mediator.Send(new UpdateDogCommand(dogId, dogDto));
         return Ok();
     }
+
+    [HttpGet("GetAllDogs")]
+
+    public async Task<ActionResult<IEnumerable<DogDto>>> GetDogs()
+    {
+        var dogs = await _mediator.Send(new GetAllDogsQuery());
+        return Ok(dogs);
+    }
+    
+    [HttpGet("GetDogById/{dogId}")]
+
+    public async Task<ActionResult<DogDto>> GetDog([FromRoute] int dogId)
+    {
+        var dog = await _mediator.Send(new GetDogByIdQuery(dogId));
+        return Ok(dog);
+    }
+        
 }
