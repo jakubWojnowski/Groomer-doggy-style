@@ -1,9 +1,9 @@
-﻿using GroomerDoggyStyle.Application.Commands.CreateOwner;
-using GroomerDoggyStyle.Application.Commands.DeleteOwner;
-using GroomerDoggyStyle.Application.Commands.UpdateOwner;
-using GroomerDoggyStyle.Application.DTO;
-using GroomerDoggyStyle.Application.Queries.GetAllOwners;
-using GroomerDoggyStyle.Application.Queries.GetOwnerById;
+﻿using GroomerDoggyStyle.Application.Owners.Commands.CreateOwner;
+using GroomerDoggyStyle.Application.Owners.Commands.DeleteOwner;
+using GroomerDoggyStyle.Application.Owners.Commands.UpdateOwner;
+using GroomerDoggyStyle.Application.Owners.DTO;
+using GroomerDoggyStyle.Application.Owners.Query.GetAllOwners;
+using GroomerDoggyStyle.Application.Owners.Query.GetOwnerById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

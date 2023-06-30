@@ -17,5 +17,6 @@ var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
-
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GroomerDoggyStyle"));
 app.Run();

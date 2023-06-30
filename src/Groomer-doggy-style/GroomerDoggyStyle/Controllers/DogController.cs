@@ -1,27 +1,35 @@
-﻿using GroomerDoggyStyle.Domain.Entities;
+﻿using GroomerDoggyStyle.Application.Dogs.Commands.CreateDog;
+using GroomerDoggyStyle.Application.Dogs.Commands.UpdateDog;
+using GroomerDoggyStyle.Application.Dogs.DTO;
+using GroomerDoggyStyle.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GroomerDoggyStyle.Api.Controller;
 
-[Route("api/[controller]")]
+[Route("api/dogs")]
 [ApiController]
 public class DogController : ControllerBase
 {
-    public ActionResult<Dog> GetAllDogs()
+    private readonly IMediator _mediator;
+
+    public DogController(IMediator mediator)
     {
-        var dog = new Dog()
-        {
-            Id = 1,
-            Name = "Test",
-            Age = 1,
-            Weight = 1,
-            Breed = "Text",
-            Sex = Sex.Female,
-            OwnerId = 1
-        };
+        _mediator = mediator;
+    }
+    [HttpPost("CreateDog/{ownerId}")]
+    public async Task<ActionResult> Create([FromBody] DogDto dogDto, [FromRoute] int ownerId)
+    {
+        var id = await _mediator.Send(new CreateDogCommand(dogDto, ownerId));
 
+        return Created($"api/dogs/{id}", null);
+    }
 
-        return Ok(dog);
+    [HttpPut("UpdateDog/{dogId}")]
+    public async Task<ActionResult> Update([FromBody] DogDto dogDto, [FromRoute] int dogId)
+    {
+        await _mediator.Send(new UpdateDogCommand(dogId, dogDto));
+        return Ok();
     }
 }

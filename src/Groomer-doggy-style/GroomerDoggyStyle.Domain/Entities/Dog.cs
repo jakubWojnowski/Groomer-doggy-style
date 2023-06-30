@@ -1,9 +1,7 @@
-﻿namespace GroomerDoggyStyle.Domain.Entities;
-public enum Sex
-{
-    Male,
-    Female
-}
+﻿using GroomerDoggyStyle.Domain.Enums;
+
+namespace GroomerDoggyStyle.Domain.Entities;
+
 public class Dog
 {
     public int Id { get; set; }
