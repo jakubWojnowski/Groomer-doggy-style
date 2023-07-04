@@ -16,6 +16,7 @@ public static class ServiceCollectionExtension
             options.UseNpgsql(configuration.GetConnectionString("GroomerDoggyStyle")));
 
         services.AddScoped<IOwnerRepository, OwnerRepository>();
+        services.AddScoped<IDogRepository, DogRepository>();
 
         return services;
     }
