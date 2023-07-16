@@ -1,4 +1,5 @@
 ﻿using GroomerDoggyStyle.Application.Dogs.Commands.CreateDog;
+using GroomerDoggyStyle.Application.Dogs.Commands.DeleteDog;
 using GroomerDoggyStyle.Application.Dogs.Commands.UpdateDog;
 using GroomerDoggyStyle.Application.Dogs.DTO;
 using GroomerDoggyStyle.Application.Dogs.Query.GetAllDogs;
@@ -49,6 +50,13 @@ public class DogController : ControllerBase
     {
         var dog = await _mediator.Send(new GetDogByIdQuery(dogId));
         return Ok(dog);
+    }
+    [HttpDelete("DeleteDog/{dogId}")]
+
+    public async Task<ActionResult<DogDto>> DeleteDog([FromRoute] int dogId)
+    {
+         await _mediator.Send(new DeleteDogCommand(dogId));
+         return NoContent();
     }
         
 }
