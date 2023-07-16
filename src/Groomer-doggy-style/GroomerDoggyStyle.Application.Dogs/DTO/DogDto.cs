@@ -9,5 +9,6 @@ public class DogDto
     public int? Weight { get; set; }
     public string? Breed { get; set; }
     public Sex Sex { get; set; } = Sex.Unknown;
+    public int OwnerId { get; set; }
 }
 

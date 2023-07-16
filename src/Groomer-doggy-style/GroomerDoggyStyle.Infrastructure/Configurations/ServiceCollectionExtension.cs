@@ -17,6 +17,8 @@ public static class ServiceCollectionExtension
 
         services.AddScoped<IOwnerRepository, OwnerRepository>();
         services.AddScoped<IDogRepository, DogRepository>();
+        services.AddScoped(typeof(IGenericRepository<,>), typeof(GenericRepository<,>));
+
 
         return services;
     }
