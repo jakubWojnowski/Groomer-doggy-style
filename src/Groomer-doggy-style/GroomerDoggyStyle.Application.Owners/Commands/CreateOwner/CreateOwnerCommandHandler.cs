@@ -10,7 +10,7 @@ public class CreateOwnerCommandHandler : IRequestHandler<CreateOwnerCommand, int
 {
     private readonly IOwnerRepository _ownerRepository;
     private readonly IGenericRepository<Owner, int> _genericRepository;
-    private readonly static OwnerMapper _mapper = new();
+    private static readonly OwnerMapper _mapper = new();
 
     public CreateOwnerCommandHandler(IOwnerRepository ownerRepository, IGenericRepository<Owner, int> genericRepository)
     {
