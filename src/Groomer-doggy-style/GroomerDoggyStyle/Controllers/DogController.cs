@@ -1,16 +1,15 @@
 ﻿using GroomerDoggyStyle.Application.Dogs.Commands.CreateDog;
+using GroomerDoggyStyle.Application.Dogs.Commands.DeleteDog;
 using GroomerDoggyStyle.Application.Dogs.Commands.UpdateDog;
 using GroomerDoggyStyle.Application.Dogs.DTO;
 using GroomerDoggyStyle.Application.Dogs.Query.GetAllDogs;
 using GroomerDoggyStyle.Application.Dogs.Query.GetDogById;
-using GroomerDoggyStyle.Domain.Entities;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GroomerDoggyStyle.Api.Controller;
+namespace GroomerDoggyStyle.Api.Controllers;
 
-[Route("api/dogs")]
+[Route("api")]
 [ApiController]
 public class DogController : ControllerBase
 {
@@ -20,7 +19,7 @@ public class DogController : ControllerBase
     {
         _mediator = mediator;
     }
-    [HttpPost("CreateDog/{ownerId}")]
+    [HttpPost("{ownerId}/dogs")]
     public async Task<ActionResult> Create([FromBody] DogDto dogDto, [FromRoute] int ownerId)
     {
         var id = await _mediator.Send(new CreateDogCommand(dogDto, ownerId));
@@ -28,14 +27,14 @@ public class DogController : ControllerBase
         return Created($"api/dogs/{id}", null);
     }
 
-    [HttpPut("UpdateDog/{dogId}")]
+    [HttpPut("dogs/{dogId}")]
     public async Task<ActionResult> Update([FromBody] DogDto dogDto, [FromRoute] int dogId)
     {
         await _mediator.Send(new UpdateDogCommand(dogId, dogDto));
         return Ok();
     }
 
-    [HttpGet("GetAllDogs")]
+    [HttpGet("dogs")]
 
     public async Task<ActionResult<IEnumerable<DogDto>>> GetDogs()
     {
@@ -43,12 +42,19 @@ public class DogController : ControllerBase
         return Ok(dogs);
     }
     
-    [HttpGet("GetDogById/{dogId}")]
+    [HttpGet("dogs/{dogId}")]
 
     public async Task<ActionResult<DogDto>> GetDog([FromRoute] int dogId)
     {
         var dog = await _mediator.Send(new GetDogByIdQuery(dogId));
         return Ok(dog);
+    }
+    [HttpDelete("dogs/{dogId}")]
+
+    public async Task<ActionResult<DogDto>> DeleteDog([FromRoute] int dogId)
+    {
+         await _mediator.Send(new DeleteDogCommand(dogId));
+         return NoContent();
     }
         
 }

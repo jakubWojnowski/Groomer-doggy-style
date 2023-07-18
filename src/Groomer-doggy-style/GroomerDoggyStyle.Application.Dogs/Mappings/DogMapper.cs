@@ -10,5 +10,16 @@ public partial class DogMapper
     public partial DogDto MapDogToDogDto(Dog dog);
     
     public partial IEnumerable<DogDto> MapDogsToDogsDto(IEnumerable<Dog> dogs);
+    
+    public Dog MapAndUpdate(DogDto dogDto, Dog dog)
+    {
+        dog.Name = dogDto.Name;
+        dog.Age = dogDto.Age;
+        dog.Weight = dogDto.Weight;
+        dog.Breed = dogDto.Breed;
+        dog.Sex = dogDto.Sex;
+
+        return dog;
+    }
 
 }
