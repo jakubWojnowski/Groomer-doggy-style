@@ -6,6 +6,7 @@ namespace GroomerDoggyStyle.Api.Configurations;
 
 public static class ServiceCollectionExtension
 {
+
     public static IServiceCollection AddPresentation(this IServiceCollection services)
     {
         services.AddScoped<ExceptionMiddleware>();

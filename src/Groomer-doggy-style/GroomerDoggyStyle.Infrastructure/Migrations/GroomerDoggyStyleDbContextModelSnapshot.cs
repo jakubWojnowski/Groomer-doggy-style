@@ -42,6 +42,9 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int?>("GroomerShopId")
+                        .HasColumnType("integer");
+
                     b.Property<string>("PostalCode")
                         .IsRequired()
                         .HasColumnType("text");
@@ -63,7 +66,7 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Age")
+                    b.Property<int?>("Age")
                         .HasColumnType("integer");
 
                     b.Property<string>("Breed")
@@ -79,7 +82,8 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                     b.Property<int>("Sex")
                         .HasColumnType("integer");
 
-                    b.Property<int>("Weight")
+                    b.Property<int?>("Weight")
+                        .IsRequired()
                         .HasColumnType("integer");
 
                     b.HasKey("Id");

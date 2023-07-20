@@ -1,9 +1,7 @@
-﻿namespace GroomerDoggyStyle.Domain.Entities;
-public enum PositionType
-{
-        Manager,
-        Employee
-}
+﻿using GroomerDoggyStyle.Domain.Enums;
+
+namespace GroomerDoggyStyle.Domain.Entities;
+
 public class Employee
 {
     public int Id { get; set; }

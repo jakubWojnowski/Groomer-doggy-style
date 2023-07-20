@@ -14,7 +14,6 @@
     <Folder Include="DTO\" />
     <Folder Include="Mappings\" />
     <Folder Include="Query\" />
-    <Folder Include="Query\" />
   </ItemGroup>
 
   <ItemGroup>
