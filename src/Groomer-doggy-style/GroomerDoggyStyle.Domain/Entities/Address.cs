@@ -8,6 +8,7 @@ public class Address
     public string? Street { get; set; }
     public string? BuildingNumber { get; set; }
     public string? PostalCode { get; set; }
+    public int? GroomerShopId { get; set; }
 
     public GroomerShop? GroomerShop { get; set; }
 }

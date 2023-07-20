@@ -12,5 +12,5 @@ public class AddressDto
         
  
      
-        public int ShopId { get; set; }
+        public int? GroomerShopId { get; set; }
 }

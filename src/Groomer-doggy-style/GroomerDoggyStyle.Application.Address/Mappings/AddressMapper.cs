@@ -6,7 +6,7 @@ namespace GroomerDoggyStyle.Application.Address.Mappings;
 [Mapper]
 public partial class AddressMapper
 {
-    [MapProperty(nameof(Domain.Entities.Address.GroomerShop.Id), nameof(AddressDto.ShopId))]
+   // [MapProperty(nameof(Domain.Entities.Address.GroomerShop.Id), nameof(AddressDto.GroomerShopId))]
     public partial Domain.Entities.Address MapAddressDtoToAddress(AddressDto addressDto);
     public partial AddressDto MapAddressToAddressDto(Domain.Entities.Address address);
     public partial IEnumerable<AddressDto> MapAddressesDtoToAddress(IEnumerable<Domain.Entities.Address> addresses);
