@@ -1,13 +1,7 @@
-﻿namespace GroomerDoggyStyle.Domain.Entities;
+﻿using GroomerDoggyStyle.Domain.Enums;
 
-public enum WeightType
-{
-    Small,
-    Medium, 
-    Large,
-    Great
-    
-}
+namespace GroomerDoggyStyle.Domain.Entities;
+
 public class Offer
 {
     public int Id { get; set; }

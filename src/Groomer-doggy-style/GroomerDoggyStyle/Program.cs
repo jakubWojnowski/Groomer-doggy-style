@@ -5,6 +5,7 @@ using GroomerDoggyStyle.Api.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services
     .AddApplication()
     .AddInfrastructure(builder.Configuration)
