@@ -93,50 +93,6 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                     b.ToTable("Dogs");
                 });
 
-            modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Employee", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("ConfirmPassword")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("GroomerShopId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Mail")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("PositionType")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("GroomerShopId");
-
-                    b.ToTable("Employees");
-                });
-
             modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.GroomerShop", b =>
                 {
                     b.Property<int>("Id")
@@ -221,6 +177,37 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                     b.ToTable("Owners");
                 });
 
+            modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("HashedPassword")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Mail")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users", (string)null);
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("User");
+
+                    b.UseTphMappingStrategy();
+                });
+
             modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Visit", b =>
                 {
                     b.Property<int>("Id")
@@ -265,6 +252,29 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                     b.ToTable("GroomerShopOffer");
                 });
 
+            modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Employee", b =>
+                {
+                    b.HasBaseType("GroomerDoggyStyle.Domain.Entities.User");
+
+                    b.Property<int>("GroomerShopId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("PositionType")
+                        .HasColumnType("integer");
+
+                    b.HasIndex("GroomerShopId");
+
+                    b.HasDiscriminator().HasValue("Employee");
+                });
+
             modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Dog", b =>
                 {
                     b.HasOne("GroomerDoggyStyle.Domain.Entities.Owner", "Owner")
@@ -274,17 +284,6 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Owner");
-                });
-
-            modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Employee", b =>
-                {
-                    b.HasOne("GroomerDoggyStyle.Domain.Entities.GroomerShop", "GroomerShop")
-                        .WithMany("Employees")
-                        .HasForeignKey("GroomerShopId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("GroomerShop");
                 });
 
             modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.GroomerShop", b =>
@@ -328,6 +327,17 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
                         .HasForeignKey("OffersId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Employee", b =>
+                {
+                    b.HasOne("GroomerDoggyStyle.Domain.Entities.GroomerShop", "GroomerShop")
+                        .WithMany("Employees")
+                        .HasForeignKey("GroomerShopId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("GroomerShop");
                 });
 
             modelBuilder.Entity("GroomerDoggyStyle.Domain.Entities.Address", b =>

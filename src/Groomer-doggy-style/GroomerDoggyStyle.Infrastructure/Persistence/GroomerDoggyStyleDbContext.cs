@@ -16,6 +16,7 @@ internal sealed class GroomerDoggyStyleDbContext : DbContext
     public DbSet<Visit> Visits { get; set; }
     public DbSet<Dog> Dogs { get; set; }
     public DbSet<Owner> Owners { get; set; }
+    public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
