@@ -30,5 +30,6 @@ public partial class EmployeeMapper
     //EmployeeDto
     public partial Domain.Entities.Employee MapEmployeeDtoToEmployee(EmployeeDto employeeDto);
     public partial EmployeeDto MapEmployeeToEmployeeDto(Domain.Entities.Employee employee);
+    public partial IEnumerable<EmployeeDto> MapEmployeesToEmployeesDto(IEnumerable<Domain.Entities.Employee> employees);
 
 }

@@ -1,5 +1,7 @@
 ﻿using GroomerDoggyStyle.Application.Employee.Commands.CreateEmployee;
+using GroomerDoggyStyle.Application.Employee.Commands.DeleteEmployee;
 using GroomerDoggyStyle.Application.Employee.DTO;
+using GroomerDoggyStyle.Application.Employee.Query.GetAllEmployeesQuery;
 using GroomerDoggyStyle.Application.Employee.Query.GetByIdEmployeeQuery;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +31,19 @@ public class EmployeeController : ControllerBase
         var employee = await _mediator.Send(new GetByIdEmployeeQuery(id));
         return Ok(employee);
     }
-  
-    
+    [HttpGet("employees")]
+    public async Task<ActionResult<IEnumerable<EmployeeDto>>> GetAll()
+    {
+        var employees = await _mediator.Send(new GetAllEmployeesQuery());
+        return Ok(employees);
+    }
+
+    [HttpDelete("employee/{id}")]
+    public async Task<ActionResult> Delete(int id)
+    {
+        await _mediator.Send(new DeleteEmployeeCommand(id));
+        return NoContent();
+    }
+
+
 }
