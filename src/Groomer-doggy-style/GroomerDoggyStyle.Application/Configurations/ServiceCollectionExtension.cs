@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
+using FluentValidation;
 using FluentValidation.AspNetCore;
 using GroomerDoggyStyle.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 
 namespace GroomerDoggyStyle.Application.Configurations;
@@ -22,8 +24,16 @@ public static class ServiceCollectionExtension
             cfg.RegisterServicesFromAssembly(Assembly.Load("GroomerDoggyStyle.Application.GroomerShops"));
             cfg.RegisterServicesFromAssembly(Assembly.Load("GroomerDoggyStyle.Application.Offers"));
             cfg.RegisterServicesFromAssembly(Assembly.Load("GroomerDoggyStyle.Application.Visits"));
-            services.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();
+            
+
         });
+  
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+        services.AddValidatorsFromAssembly(Assembly.Load("GroomerDoggyStyle.Application.Employee"));
+
+  
+        services.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();
+  
         return services;
     }
 }

@@ -3,7 +3,7 @@ using GroomerDoggyStyle.Application.GroomerShops.Commands.GroomerShopDelete;
 using GroomerDoggyStyle.Application.GroomerShops.Commands.GroomerShopUpdate;
 using GroomerDoggyStyle.Application.GroomerShops.DTO;
 using GroomerDoggyStyle.Application.GroomerShops.Query.GetAllGroomerShops;
-using GroomerDoggyStyle.Application.GroomerShops.Query.GroomerShopGetById;
+using GroomerDoggyStyle.Application.GroomerShops.Query.GetByIdGroomerShop;
 using MediatR;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;

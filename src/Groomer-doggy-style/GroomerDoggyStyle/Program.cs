@@ -1,7 +1,9 @@
+using FluentValidation.AspNetCore;
 using GroomerDoggyStyle.Infrastructure.Configurations;
 using GroomerDoggyStyle.Application.Configurations;
 using GroomerDoggyStyle.Api.Middleware;
 using GroomerDoggyStyle.Api.Configurations;
+using GroomerDoggyStyle.Application.Employee.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services
     .AddPresentation();
 
 builder.Services.AddControllers();
+
 
 var app = builder.Build();
 

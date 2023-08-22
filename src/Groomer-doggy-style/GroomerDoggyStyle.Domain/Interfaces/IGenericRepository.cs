@@ -1,4 +1,6 @@
-﻿namespace GroomerDoggyStyle.Domain.Interfaces;
+﻿using System.Linq.Expressions;
+
+namespace GroomerDoggyStyle.Domain.Interfaces;
 
 public interface IGenericRepository<TEntity, in TKey> where TEntity : class
 {
@@ -7,4 +9,5 @@ public interface IGenericRepository<TEntity, in TKey> where TEntity : class
     Task<int> Add(TEntity entity);
     Task Update(TEntity entity);
     Task Delete(TEntity entity);
+    Task<TEntity?>  GetNextRecordAsync(Expression<Func<TEntity, bool>>filter);
 }
