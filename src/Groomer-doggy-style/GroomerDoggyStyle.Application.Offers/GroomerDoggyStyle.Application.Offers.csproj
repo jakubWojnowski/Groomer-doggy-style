@@ -9,10 +9,10 @@
   <ItemGroup>
     <Folder Include="Commands\" />
     <Folder Include="DTO\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="Mapping\" />
     <Folder Include="Commands\" />
     <Folder Include="DTO\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="Mapping\" />
     <Folder Include="Query\" />
     <Folder Include="Query\" />
   </ItemGroup>

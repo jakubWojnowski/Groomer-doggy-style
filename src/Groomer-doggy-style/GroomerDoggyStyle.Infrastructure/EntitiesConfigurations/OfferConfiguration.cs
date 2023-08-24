@@ -9,6 +9,6 @@ internal sealed class OfferConfiguration : IEntityTypeConfiguration<Offer>
     public void Configure(EntityTypeBuilder<Offer> builder)
     {
         builder.Property(n => n.Name).IsRequired();
-        builder.Property(p => p.Price).IsRequired();
+        builder.Property(p => p.BasePrice).IsRequired();
     }
 }

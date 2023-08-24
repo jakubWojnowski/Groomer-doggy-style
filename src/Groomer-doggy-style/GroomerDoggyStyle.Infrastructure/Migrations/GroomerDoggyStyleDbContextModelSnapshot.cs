@@ -132,18 +132,15 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<decimal>("BasePrice")
+                        .HasColumnType("numeric");
+
                     b.Property<int>("DurationTimeInMinutes")
                         .HasColumnType("integer");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
-
-                    b.Property<int>("WeightType")
-                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
@@ -227,6 +224,9 @@ namespace GroomerDoggyStyle.Infrastructure.Migrations
 
                     b.Property<int>("GroomerShopId")
                         .HasColumnType("integer");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
 
                     b.HasKey("Id");
 

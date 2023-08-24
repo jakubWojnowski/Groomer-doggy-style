@@ -7,7 +7,8 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GroomerDoggyStyle.Api.Controllers;
-
+[Route("api")]
+[ApiController]
 public class EmployeeController : ControllerBase
 {
     private readonly IMediator _mediator;
