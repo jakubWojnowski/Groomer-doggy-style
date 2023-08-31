@@ -1,18 +1,12 @@
-﻿namespace GroomerDoggyStyle.Domain.Entities;
-public enum PositionType
+﻿using GroomerDoggyStyle.Domain.Enums;
+
+namespace GroomerDoggyStyle.Domain.Entities;
+
+public class Employee : User
 {
-        Manager,
-        Employee
-}
-public class Employee
-{
-    public int Id { get; set; }
+    
     public string? Name { get; set; }
     public string? LastName { get; set; }
-    public string? Mail { get; set; }
-    public string? Password { get; set; }
-    public string? ConfirmPassword { get; set; }
-    public string? PhoneNumber { get; set; }
     public int GroomerShopId { get; set; }
     
     public GroomerShop? GroomerShop { get; set; }

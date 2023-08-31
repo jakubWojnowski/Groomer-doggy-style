@@ -20,7 +20,7 @@ public class CreateDogCommandHandler : IRequestHandler<CreateDogCommand, int>
     public async Task<int> Handle(CreateDogCommand request, CancellationToken cancellationToken)
     {
         var dog = _mapper.MapDogDtoToDog(request.DogDto);
-        dog.OwnerId = request.OwnerId;
+        dog.OwnerId = request.Id;
         var id = await _genericRepository.Add(dog);
         return id;
     }

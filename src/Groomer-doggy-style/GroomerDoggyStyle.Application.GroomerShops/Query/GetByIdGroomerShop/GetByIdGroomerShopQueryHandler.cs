@@ -5,7 +5,7 @@ using GroomerDoggyStyle.Domain.Exceptions;
 using GroomerDoggyStyle.Domain.Interfaces;
 using MediatR;
 
-namespace GroomerDoggyStyle.Application.GroomerShops.Query.GroomerShopGetById;
+namespace GroomerDoggyStyle.Application.GroomerShops.Query.GetByIdGroomerShop;
 
 public class GetByIdGroomerShopQueryHandler : IRequestHandler<GetByIdGroomerShopQuery, GroomerShopDto>
 {
