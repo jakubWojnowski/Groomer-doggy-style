@@ -1,8 +1,8 @@
 ﻿using GroomerDoggyStyle.Application.Employee.Commands.CreateEmployee;
 using GroomerDoggyStyle.Application.Employee.Commands.DeleteEmployee;
 using GroomerDoggyStyle.Application.Employee.DTO;
-using GroomerDoggyStyle.Application.Employee.Query.GetAllEmployeesQuery;
-using GroomerDoggyStyle.Application.Employee.Query.GetByIdEmployeeQuery;
+using GroomerDoggyStyle.Application.Employee.Query.GetEmployee;
+using GroomerDoggyStyle.Application.Employee.Query.GetEmployees;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

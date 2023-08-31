@@ -4,7 +4,7 @@ using GroomerDoggyStyle.Domain.Exceptions;
 using GroomerDoggyStyle.Domain.Interfaces;
 using MediatR;
 
-namespace GroomerDoggyStyle.Application.Employee.Query.GetByIdEmployeeQuery;
+namespace GroomerDoggyStyle.Application.Employee.Query.GetEmployee;
 
 public class GetByIdEmployeeQueryHandler : IRequestHandler<GetByIdEmployeeQuery, EmployeeDto>
 {
