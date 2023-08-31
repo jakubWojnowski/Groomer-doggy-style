@@ -3,6 +3,7 @@ using GroomerDoggyStyle.Application.Visits.Commands.DeleteVisit;
 using GroomerDoggyStyle.Application.Visits.Commands.UpdateVisit;
 using GroomerDoggyStyle.Application.Visits.DTO;
 using GroomerDoggyStyle.Application.Visits.Query.GetVisit;
+using GroomerDoggyStyle.Application.Visits.Query.GetVisits;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -47,4 +48,14 @@ public class VisitController : ControllerBase
 
         return Ok(visit);
     }
+
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<VisitDto>>> GetAll()
+    {
+        var visits = await _mediator.Send(new GetAllVisitsQuery());
+
+        return Ok(visits);
+
+    }
+
 }

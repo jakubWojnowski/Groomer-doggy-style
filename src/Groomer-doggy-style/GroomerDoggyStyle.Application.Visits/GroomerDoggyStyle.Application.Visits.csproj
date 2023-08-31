@@ -12,7 +12,6 @@
     <Folder Include="Commands\" />
     <Folder Include="DTO\" />
     <Folder Include="Query\" />
-    <Folder Include="Query\GetVisits" />
   
   </ItemGroup>
 
