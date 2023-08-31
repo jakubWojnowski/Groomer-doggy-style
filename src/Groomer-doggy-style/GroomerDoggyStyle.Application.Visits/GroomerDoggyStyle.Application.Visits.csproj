@@ -8,13 +8,15 @@
 
   <ItemGroup>
     <Folder Include="Commands\" />
+    <Folder Include="Commands\UpdateVisit" />
+    <Folder Include="Commands\DeleteVisit" />
     <Folder Include="DTO\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Commands\" />
     <Folder Include="DTO\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Query\" />
-    <Folder Include="Query\" />
+    <Folder Include="Query\GetVisit" />
+    <Folder Include="Query\GetVisits" />
+  
   </ItemGroup>
 
   <ItemGroup>

@@ -30,6 +30,7 @@ public static class ServiceCollectionExtension
   
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddValidatorsFromAssembly(Assembly.Load("GroomerDoggyStyle.Application.Employee"));
+        services.AddValidatorsFromAssembly(Assembly.Load("GroomerDoggyStyle.Application.Visits"));
 
   
         services.AddScoped<IPasswordHasher<Employee>, PasswordHasher<Employee>>();
